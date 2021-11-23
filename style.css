@@ -4,6 +4,43 @@ body{
     box-sizing: border-box;
 }
 
+.main-header {
+    width: 100%;
+    background: #FFEDA6;
+    padding: 8px 16px;
+    height: 3rem; 
+      
+}
+.main-nav {
+    text-align: left;
+    vertical-align: middle;
+    width: calc(100% -20px);
+}
+
+.main-nav__items {
+    margin: 25px;
+    padding: 0;
+    list-style: none;
+}
+
+.main-nav__item {
+    display: inline-block;
+    margin: 0 1rem;
+}
+
+.main-nav__item a{
+    text-decoration: none;
+    font-weight: bold;
+    padding: 0.5rem 6rem;
+    color: white; 
+    border-radius:3px ;
+    background:#672317;
+    
+}  
+
+
+
+
 
 
 .cuadro {
@@ -13,6 +50,7 @@ body{
     margin: 0.5rem;
     display: inline-block;
     width: 30%;
+    border-radius: 0.5rem;
 }
 
 .cuadro__title {
@@ -28,6 +66,7 @@ body{
 .button {
     color: white;
     background-color: #bd3a22;
+    border-color: #bd3a22;
     border-radius: 5px;
     font-weight: bold;
     cursor: pointer;
