@@ -48,9 +48,9 @@ body{
     font-weight: bold;
     padding: 0.5rem 6rem;
     color: white; 
-    border-radius:3px ;
+    border-radius: 3rem;
     background:#672317;
-    
+    text-align: left;
 }  
 
 
@@ -88,9 +88,11 @@ body{
     background-color: #bd3a22;
     border-color: #bd3a22;
     border-radius: 5px;
+    padding: 0.5rem 1rem;
     font-weight: bold;
     cursor: pointer;
     text-align: right;
+    position: absolute;
    
 }
     .button:hover,
